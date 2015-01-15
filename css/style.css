@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'SugarcubesRegular';
+    src:url('../fonts/SugarcubesRegular.eot');
+    src:url('../fonts/SugarcubesRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ESugarcubesRegular.woff') format('woff'),
+        url('../fonts/SugarcubesRegular.ttf') format('truetype'),
+        url('../fonts/SugarcubesRegular.svg#SugarcubesRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	/*background-color: #000;*/
+}
+
+/*_   _             _                
+ | \ | | __ ___   _| |__   __ _ _ __ 
+ |  \| |/ _` \ \ / / '_ \ / _` | '__|
+ | |\  | (_| |\ V /| |_) | (_| | |   
+ |_| \_|\__,_| \_/ |_.__/ \__,_|_|*/
+
+
+header {
+	/*padding: 10px 5% 0;*/
+	padding: 0 5%;
+}
+
+/*BEARS logo*/
+header > p {
+	font-family: 'SugarcubesRegular', sans-serif;
+	font-size: 3em; 
+	display: inline-block;
+	margin: 20px 0;
+}
+
+nav {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	padding: 0 5%;
+	font-size: 1.5em;
+	font-family: 'Khand', sans-serif;
+	text-transform: uppercase;
+}
+
+nav > ul {
+	margin: 0;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin: -5px;
+}
+
+a > div {
+	padding: 20px 25px;
+}
+
+/* ____                           _ 
+  / ___| ___ _ __   ___ _ __ __ _| |
+ | |  _ / _ \ '_ \ / _ \ '__/ _` | |
+ | |_| |  __/ | | |  __/ | | (_| | |
+  \____|\___|_| |_|\___|_|  \__,_|_|*/
+
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
