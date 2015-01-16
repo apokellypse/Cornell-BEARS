@@ -1,3 +1,4 @@
+<?php include 'constants.php' ?>
 <!doctype html>
 <html>
 <head>
@@ -16,14 +17,14 @@
 </head>
 <body>
 	<header>
-		<p><a href="index.php">Cornell BEARS</a></p>
+		<p><a href="index.php"><?=$org_title;?></a></p>
 		<nav>
 			<ul>
-				<li><a href="index.php"><div>Home</div></a></li>
-				<li><a href="about.php"><div>About Us</div></a></li>
-				<li><a href="members.php"><div>Membership</div></a></li>
-				<li><a href="resources.php"><div>Resources</div></a></li>
-				<li><a href="gallery.php"><div>Gallery</div></a></li>
+				<li><a href="index.php"><div><?=$nav_link1?></div></a></li>
+				<li><a href="about.php"><div><?=$nav_link2?></div></a></li>
+				<li><a href="members.php"><div><?=$nav_link3?></div></a></li>
+				<li><a href="resources.php"><div><?=$nav_link4?></div></a></li>
+				<li><a href="gallery.php"><div><?=$nav_link5?></div></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -33,9 +34,12 @@
 	<section class="nav">
 		<div>
 			<ul>
-				<li><h1>Meet the Team</h1></li>
-				<li><h1>FAQ</h1></li>
-				<li><h1>Contact Us</h1></li>
+				<li><h1><?=$nav_link21?></h1></li>
+				<li><h1><?=$nav_link22?></h1></li>
+				<li>
+					<h1><?=$nav_link23?></h1>
+					<p><?=$nav_link23_text?></p>
+				</li>
 			</ul>	
 		</div>
 	</section>
@@ -43,9 +47,9 @@
 	<section class="nav">
 		<div>
 			<ul>
-				<li><h1>Register for BEARS!</h1></li>
-				<li><h1>Upload Photos</h1></li>
-				<li><h1>Events</h1></li>
+				<li><h1><?=$nav_link31?></h1></li>
+				<li><h1><?=$nav_link32?></h1></li>
+				<li><h1><?=$nav_link33?></h1></li>
 			</ul>		
 		</div>
 	</section>
@@ -53,8 +57,8 @@
 	<section class="nav">
 		<div>
 			<ul>
-				<li><h1>Mentorship Handbook</h1></li>
-				<li><h1>Graduate Program</h1></li>
+				<li><h1><?=$nav_link41?></h1></li>
+				<li><h1><?=$nav_link42?></h1></li>
 			</ul>
 		</div>
 	</section>

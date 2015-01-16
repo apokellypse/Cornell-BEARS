@@ -23,7 +23,7 @@ body {
 header {
 	/*padding: 10px 5% 0;*/
 	padding: 0 5%;
-	background-color: #ffdcdc;
+	background-color: #f2cc85;
 }
 
 /*BEARS logo*/
@@ -53,11 +53,13 @@ nav > ul > li {
 	margin: -5px;
 }
 
+
+/*SUBMENU*/
 .nav > div {
-	background-color: #664aa7;
-	width: 100%;
+	background-color: #8c230b;
+	width: 90%;
 	padding: 20px 5%;
-	color: #fff;
+	color: #f2cc85;
 	/*margin-top: -37px;*/
 }
 
@@ -75,8 +77,9 @@ a > div {
 	padding: 20px 25px 50px;
 }
 
-a > div:hover {
-	background-color: #582058;
+a > div:hover, a > div.hovered {
+	background-color: #260808;
+	color: #d95718;
 }
 
 /* ____                           _ 
@@ -88,11 +91,12 @@ a > div:hover {
 
 a {
 	text-decoration: none;
-	color: #2f2f96;
+	color: #d94d1a;
 }
 
+/*for the logo*/
 a:hover {
-	color: #e05e5e;
+	color: #d95718;
 }
 
 h1 {
