@@ -26,33 +26,40 @@
 				<li><a href="gallery.php"><div>Gallery</div></a></li>
 			</ul>
 		</nav>
-		<!--submenu for Home-->
-		<section class="nav"></section>
-		<!--submenu for About Us-->
-		<section class="nav">
-			<ul>
-				<li>Meet the Team</li>
-				<li>FAQ</li>
-				<li>Contact Us</li>
-			</ul>	
-		</section>
-		<!--submenu for Membership-->
-		<section class="nav">
-			<ul>
-				<li>Register for BEARS!</li>
-				<li>Upload Photos</li>
-				<li>Events</li>
-			</ul>		
-		</section>
-		<!--submenu for Resources-->
-		<section class="nav">
-			<ul>
-				<li>Mentorship Handbook</li>
-				<li>Graduate Program</li>
-			</ul>
-		</section>
-		<!--submenu for Gallery-->
-		<section class="nav"></section>
 	</header>
+	<!--submenu for Home-->
+	<section class="nav"></section>
+	<!--submenu for About Us-->
+	<section class="nav">
+		<div>
+			<ul>
+				<li><h1>Meet the Team</h1></li>
+				<li><h1>FAQ</h1></li>
+				<li><h1>Contact Us</h1></li>
+			</ul>	
+		</div>
+	</section>
+	<!--submenu for Membership-->
+	<section class="nav">
+		<div>
+			<ul>
+				<li><h1>Register for BEARS!</h1></li>
+				<li><h1>Upload Photos</h1></li>
+				<li><h1>Events</h1></li>
+			</ul>		
+		</div>
+	</section>
+	<!--submenu for Resources-->
+	<section class="nav">
+		<div>
+			<ul>
+				<li><h1>Mentorship Handbook</h1></li>
+				<li><h1>Graduate Program</h1></li>
+			</ul>
+		</div>
+	</section>
+	<!--submenu for Gallery-->
+	<section class="nav"></section>
+
 </body>
 </html>

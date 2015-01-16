@@ -8,7 +8,15 @@ $(document).ready(function() {
 			$(".nav:nth-of-type(" + (ind + 1) + ")").show();
 			// $(".nav").show();
 		}, function() {
-			$(".nav").hide();
+			// $(".nav").hide();
+		}
+	);
+	$(".nav").hide();
+	$(".nav").hover(
+		function() {
+
+		}, function() {
+			$(this).hide();
 		}
 	);
 })
