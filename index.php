@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Khand' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
 </head>
@@ -34,11 +35,24 @@
 	<section class="nav">
 		<div>
 			<ul>
-				<li><h1><?=$nav_link21?></h1></li>
-				<li><h1><?=$nav_link22?></h1></li>
-				<li>
-					<h1><?=$nav_link23?></h1>
-					<p><?=$nav_link23_text?></p>
+				<li id="team">
+					<a href="team.php"><div>
+						<h1><?=$nav_link21?></h1>
+						<p><?=$nav_link21_text?></p>
+					</div></a>
+				</li>
+				<li id="faq">
+					<a href="faq.php"><div>
+						<h1><?=$nav_link22?></h1>
+						<p><?=$nav_link22_text?></p>
+					</div></a>
+				</li>
+				<li id="mail">
+					<a href=""><div>
+						<h1><?=$nav_link23?></h1>
+						<p><?=$nav_link23_text?></p>
+						<p><?=$email?></p>
+					</div></a>
 				</li>
 			</ul>	
 		</div>

@@ -1,5 +1,6 @@
 <?php
-$org_title = "Cornell Bears";
+$org_title = "Cornell BEARS";
+$email = "bearscornell@gmail.com";
 
 //Navigational Links
 $nav_link1 = "Home";
@@ -10,7 +11,9 @@ $nav_link5 = "Gallery";
 
 //Submenu Links: 21 = item 2, submenu item 1
 $nav_link21 = "Meet the Team";
+$nav_link21_text = "The minds behind BEARS.";
 $nav_link22 = "FAQ";
+$nav_link22_text = "Everything you need to know about BEARS.";
 $nav_link23 = "Contact Us";
 $nav_link23_text = "Please feel free to reach out to us with any questions or concerns! We would love to hear from you.";
 

@@ -32,6 +32,7 @@ header > p {
 	font-size: 3em; 
 	display: inline-block;
 	margin: 15px 0;
+	font-weight: bold;
 }
 
 nav {
@@ -58,19 +59,26 @@ nav > ul > li {
 .nav > div {
 	background-color: #8c230b;
 	width: 90%;
-	padding: 20px 5%;
+	padding: 0 5%;
 	color: #f2cc85;
 	/*margin-top: -37px;*/
 }
 
 .nav > div > ul {
 	padding: 0;
+	margin: 0;
 }
 
 .nav > div > ul > li {
 	display: inline-block;
-	width: 33%;
+	width: 30%;
+	margin: 0 1%;
+	vertical-align: top;
 }
+
+/*.nav > div > ul > li > a > div {
+	min-height: 200px;
+}*/
 
 /*MAIN LINKS*/
 a > div {
@@ -80,6 +88,24 @@ a > div {
 a > div:hover, a > div.hovered {
 	background-color: #260808;
 	color: #d95718;
+}
+
+/*SUBMENU LINKS*/
+.nav > div > ul > li > a > div {
+	color: #f2cc85;
+	padding: 7%;
+}
+
+#team {
+	background: url("../icons/people.png") no-repeat 100% 50%;
+}
+
+#faq {
+	background: url("../icons/help_large.png") no-repeat 100% 50%;
+}
+
+#mail {
+	background: url("../icons/mail_large.png") no-repeat 100% 50%;
 }
 
 /* ____                           _ 
@@ -96,7 +122,7 @@ a {
 
 /*for the logo*/
 a:hover {
-	color: #d95718;
+	color: #cc1717;
 }
 
 h1 {
@@ -104,4 +130,9 @@ h1 {
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0;
+}
+
+p {
+	font-family: 'Merriweather', serif;
+	font-size: 1.1em;
 }
