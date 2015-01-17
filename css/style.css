@@ -24,6 +24,7 @@ header {
 	/*padding: 10px 5% 0;*/
 	padding: 0 5%;
 	background-color: #f2cc85;
+	background-image: url("../textures/climpek.png");
 }
 
 /*BEARS logo*/
@@ -61,6 +62,7 @@ nav > ul > li {
 	width: 90%;
 	padding: 0 5%;
 	color: #f2cc85;
+	background-image: url("../textures/asfalt-dark.png");
 	/*margin-top: -37px;*/
 }
 
@@ -74,11 +76,12 @@ nav > ul > li {
 	width: 30%;
 	margin: 0 1%;
 	vertical-align: top;
+	/*vertical-align: middle;*/
 }
 
-/*.nav > div > ul > li > a > div {
-	min-height: 200px;
-}*/
+.nav > div > ul > li > a > div {
+	height: 200px;
+}
 
 /*MAIN LINKS*/
 a > div {
@@ -97,15 +100,15 @@ a > div:hover, a > div.hovered {
 }
 
 #team {
-	background: url("../icons/people.png") no-repeat 100% 50%;
+	background: url("../icons/people256.png") no-repeat 95% 50%;
 }
 
 #faq {
-	background: url("../icons/help_large.png") no-repeat 100% 50%;
+	background: url("../icons/faq256.png") no-repeat 95% 50%;
 }
 
 #mail {
-	background: url("../icons/mail_large.png") no-repeat 100% 50%;
+	background: url("../icons/mail256.png") no-repeat 120% 50%;
 }
 
 /* ____                           _ 

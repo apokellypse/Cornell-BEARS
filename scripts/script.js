@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//for debugginng, comment out:
-	$(".nav").hide();
+	// $(".nav").hide();
 
 	//when you hover over main navigation
 	$("nav > ul > li").hover(
@@ -27,15 +27,5 @@ $(document).ready(function() {
 			$(this).hide();
 		}
 	);
-
-	// evenHeights();
-
-	//CSS workaround, probably terrible style, will fix later
-	// function evenHeights() {
-	// 	var h = $("#mail > a > div").css("height");
-	// 	console.log(h);
-	// 	$("#team > a > div").css("height", h);
-	// 	$("#faq > a > div").css("height", h);
-	// }
 
 })

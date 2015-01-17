@@ -36,22 +36,22 @@
 		<div>
 			<ul>
 				<li id="team">
-					<a href="team.php"><div>
+					<a href="#teamx"><div>
 						<h1><?=$nav_link21?></h1>
 						<p><?=$nav_link21_text?></p>
 					</div></a>
 				</li>
 				<li id="faq">
-					<a href="faq.php"><div>
+					<a href="#faqx"><div>
 						<h1><?=$nav_link22?></h1>
 						<p><?=$nav_link22_text?></p>
 					</div></a>
 				</li>
 				<li id="mail">
-					<a href=""><div>
+					<a href="#mailx"><div>
 						<h1><?=$nav_link23?></h1>
 						<p><?=$nav_link23_text?></p>
-						<p><?=$email?></p>
+						<p><?=$nav_link23_text2?></p>
 					</div></a>
 				</li>
 			</ul>	
