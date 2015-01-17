@@ -79,6 +79,16 @@ nav > ul > li {
 	/*vertical-align: middle;*/
 }
 
+/*.nav:nth-child(2) > div > ul > li {
+	width: 20%;
+	margin: 0 12%;
+}*/
+
+.nav:nth-child(5) > div > ul > li,
+.nav:nth-child(6) > div > ul > li {
+	margin: 0 9%;
+}
+
 .nav > div > ul > li > a > div {
 	height: 200px;
 }
@@ -99,6 +109,7 @@ a > div:hover, a > div.hovered {
 	padding: 7%;
 }
 
+/*BACKGROUND IMAGES*/
 #team {
 	background: url("../icons/people256.png") no-repeat 95% 50%;
 }
@@ -108,7 +119,27 @@ a > div:hover, a > div.hovered {
 }
 
 #mail {
-	background: url("../icons/mail256.png") no-repeat 120% 50%;
+	background: url("../icons/mail256.png") no-repeat 140% 50%;
+}
+
+#register {
+	background: url("../icons/clipboard256.png") no-repeat 100% -0%;
+}
+
+#upload {
+	background: url("../icons/camera256.png") no-repeat 100% 50%;
+}
+
+#events {
+	background: url("../icons/time256.png") no-repeat 100% 50%;
+}
+
+#book {
+	background: url("../icons/hardbound256.png") no-repeat 100% 0%;
+}
+
+#grad {
+	background: url("../icons/graduation512.png") no-repeat 0% 70%;
 }
 
 /* ____                           _ 
@@ -125,7 +156,8 @@ a {
 
 /*for the logo*/
 a:hover {
-	color: #cc1717;
+	/*color: #cc1717;*/
+	color: #d94d1a;
 }
 
 h1 {

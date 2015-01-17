@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	//for debugginng, comment out:
-	// $(".nav").hide();
+	$(".nav").hide();
 
 	//when you hover over main navigation
 	$("nav > ul > li").hover(
