@@ -5,5 +5,6 @@
 <body>
 	<?php include 'header.php' ?>
 	<?php include 'nav.php' ?>
+	<!--actual things unique to index.php go here-->
 </body>
 </html>
