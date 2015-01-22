@@ -103,6 +103,11 @@ a > div:hover, a > div.hovered {
 	color: #d95718;
 }
 
+a > div.fixedhover {
+	background-color: #260808;
+	color: #f2cc85;
+}
+
 /*SUBMENU LINKS*/
 .nav > div > ul > li > a > div {
 	color: #f2cc85;

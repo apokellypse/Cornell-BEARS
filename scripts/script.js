@@ -9,6 +9,21 @@ $(document).ready(function() {
 	var url = str.substring(str.lastIndexOf("/") + 1, str.lastIndexOf("."))
 	console.log(url);
 
+	var current_pageid = -1;
+	var url_list = ["index", "about", "members", "resources", "gallery"];
+	for (i = 0; i < url_list.length; i++) {
+		if (url == url_list[i]) {
+			var s = "nav > ul > li:nth-of-type(" + (i + 1) + ") > a > div";
+			$(s).toggleClass("fixedhover");
+			// $(s).removeClass("hovered");
+			$(".nav:nth-of-type(" + (i + 1) + ")").show();
+
+			current_pageid = i;
+			console.log(current_pageid);
+			break;
+		}
+	}
+
 	//when you hover over main navigation
 	$("nav > ul > li").hover(
 		function() {
@@ -17,6 +32,8 @@ $(document).ready(function() {
 			// console.log(ind);
 			$(".nav:nth-of-type(" + (ind + 1) + ")").show();
 		}, function() {
+			// $(".nav").hide();
+			// $(".nav:nth-of-type(" + (current_pageid + 1) + ")").show();	
 		}
 	);
 
@@ -32,6 +49,9 @@ $(document).ready(function() {
 			var s = "nav > ul > li:nth-of-type(" + (ind + 1) + ") > a > div";
 			$(s).toggleClass("hovered");
 			$(this).hide();
+
+			$(".nav:nth-of-type(" + (current_pageid + 1) + ")").show();
+
 		}
 	);
 
