@@ -153,6 +153,23 @@ a > div.fixedhover {
  | |_| |  __/ | | |  __/ | | (_| | |
   \____|\___|_| |_|\___|_|  \__,_|_|*/
 
+#container {
+	background-color: #f2cc85;
+	width: 80%;
+	padding: 100px 10%;
+	/*margin-top: -20px; dunno why I need this, but I do*/
+	text-align: center;
+}
+
+#container > div {
+	margin: 50px 0;
+}
+
+#container > div > p {
+	width: 70%;
+	padding: 0 15%;
+	text-align: left;
+}
 
 a {
 	text-decoration: none;
@@ -170,6 +187,11 @@ h1 {
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0;
+}
+
+h2 {
+	font-family: 'SugarcubesRegular', sans-serif;
+	font-size: 4em;
 }
 
 p {

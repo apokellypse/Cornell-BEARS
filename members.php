@@ -1,24 +1,27 @@
+<?php include 'constants.php' ?>
 <!doctype html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Cornell BEARS | Building Empowered and Resourceful Scholars</title>
-	<meta name="description" content="website of Cornell BEARS, a mentoring organization founded at Cornell University">
-	<meta name="author" content="Kelly Yu">
-	<!-- <meta http-equiv="expires"> -->
-	<link rel="icon" type="image/ico" href="">
-</head>
+<?php include 'meta.php' ?>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="about.php">About Us</a></li>
-				<li><a href="members.php">Members</a></li>
-				<li><a href="resources.php">Resources</a></li>
-				<li><a href="gallery.php">Gallery</a></li>
-			</ul>
-		</nav>
-	</header>
+	<?php include 'header.php' ?>
+	<?php include 'nav.php' ?>
+	<!--actual things unique to index.php go here-->
+	<div id="container">
+		<h2><?=$frontpage?></h2>
+		
+		<div>
+			<h1><?=$nav_link11?></h1>
+			<p><?=$nav_link11_blurb?></p>
+		</div>
+		<div>
+			<h1><?=$nav_link12?></h1>
+			<p><?=$nav_link12_blurb?></p>
+		</div>
+
+		<div>
+			<h1><?=$nav_link13?></h1>
+			<p><?=$nav_link13_blurb?></p>
+		</div>
+	</div>
 </body>
 </html>

@@ -51,5 +51,13 @@ $nav_link51_text = "Event photos and student submitted photos.";
 $nav_link52 = "Videos";
 $nav_link52_text = "Videos of our events.";
 
+//Front Page Liner
+$frontpage = "Mentorship tailored to You.";
+$nav_link11_blurb = "At our heart, we are a mentorship program. BEARS aims to facilitate mentorship between all students at Cornell. We want to create a network of advice and information across this campus, and a safe environment to ask questions.";
+
+$nav_link12_blurb = "**NEEDS EDIT We abandon the one-size-fits-all approach. Mentees in the program will better be able to take advantage of the many resources available here at Cornell and accelerate his or her own progress. At the same time, mentors will be able to give back to Cornell, establish a friendship, and be held responsible for his or her own progress and behavior. This program is particularly useful for international students, as mentors can provide insight into social and cultural norms that are often confusing. ";
+
+$nav_link13_blurb = "At the start of each semester, we will publish a registration form on our website, which gauges personalities and interests. From this information, we use a specific algorithm to form our pairs. If the mentorship, for whatever reason, is not working out, it can be reshuffled upon the mutual consent of both parties. The nature of the mentorship is completely up to the mentor and mentee. ";
+
 ?>
 
